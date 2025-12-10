@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Віджет "Погода"</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="search-container">
+            <input type="text" id="cityInput" placeholder="Введіть назву міста..." value="Kyiv">
+            <button id="searchButton">Пошук</button>
+        </div>
+        <div id="weather" class="weather">
+            <div class="weather__header">
+                <div class="weather__main">
+                    <div class="weather__city">Kyiv</div>
+                    <div class="weather__status">Clouds</div>
+                </div>
+            </div>
+
+            <div class="weather__icon">
+                <img src="http://openweathermap.org/img/w/04d.png" alt="Clouds">
+            </div>
+
+            <div class="weather__temp">14°C</div>
+
+            <div class="weather__feels-like">Feels like: 13°C</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
